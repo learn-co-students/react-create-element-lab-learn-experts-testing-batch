@@ -59,8 +59,8 @@ describe('You in React', function () {
     it('should have the right interests', function() {
       expect(element.props.children[0].props.children).toEqual('JavaScript');
       expect(element.props.children[1].props.children).toEqual('React');
-      expect(element.props.children[2].props.children).toEqual('Movies');
-      expect(element.props.children[3].props.children).toEqual('Ice cream');
+      expect(element.props.children[2].props.children).toEqual('Redux');
+      expect(element.props.children[3].props.children).toEqual('Functional Programming');
     });
   });
 });

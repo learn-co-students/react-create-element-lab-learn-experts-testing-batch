@@ -27,12 +27,12 @@ const meInReact = React.createElement(
     React.createElement(
       'li',
       {},
-      'Movies'
+      'Redux'
     ),
     React.createElement(
       'li',
       {},
-      'Ice cream'
+      'Functional Programming'
     )
   )
 );
